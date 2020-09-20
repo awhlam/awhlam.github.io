@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	padding: 10px;
+}
+
+/* Header */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: blanchedalmond;
+	padding: 10px;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+}
+
+.link a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-item:hover {
+	background-color: white;
+}
+
+/* Content */
